@@ -1,0 +1,43 @@
+PROJECT WORKFLOW – MEDTRACK AWS CLOUD-ENABLED HEALTHCARE MANAGEMENT SYSTEM
+
+1. Backend Development and Application Setup
+   - Develop the backend using Flask.
+   - Create routes for user registration, login, and book request.
+   - Integrate AWS services using boto3 for communication with cloud resources.
+
+2. AWS Account Setup and Login
+   - Create an AWS account if not already available.
+   - Log in to the AWS Management Console.
+   - Prepare the environment for using AWS services.
+
+3. DynamoDB Database Creation and Setup
+   - Create a DynamoDB table to store application data.
+   - Configure attributes for user information and book request details.
+   - Connect the Flask backend to DynamoDB for storing and retrieving data.
+
+4. SNS Notification Setup
+   - Create an Amazon SNS topic for notifications.
+   - Configure SNS to send notifications when a book request is submitted.
+   - Subscribe users and staff emails to receive notifications.
+
+5. IAM Role Setup
+   - Create an IAM role for secure access between services.
+   - Attach required policies for DynamoDB, SNS, and EC2.
+   - Assign the IAM role to the EC2 instance.
+
+6. EC2 Instance Setup
+   - Launch an EC2 instance to host the Flask web application.
+   - Configure security groups to allow HTTP (port 80) and SSH (port 22).
+   - Install Python, Flask, and required libraries.
+
+7. Deployment on EC2
+   - Upload the Flask project files to the EC2 instance.
+   - Install dependencies using pip.
+   - Run the Flask application on the server.
+
+8. Testing and Deployment
+   - Test user registration functionality.
+   - Test login system.
+   - Test book request submission.
+   - Verify SNS email notifications are received.
+   - Ensure the application works correctly after deployment.
