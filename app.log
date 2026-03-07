@@ -1,0 +1,448 @@
+2026-03-07 21:32:55,524 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.37.139.33:5000
+2026-03-07 21:32:55,525 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 21:32:55,558 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 21:33:00,425 - WARNING -  * Debugger is active!
+2026-03-07 21:33:00,432 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 21:33:21,186 - INFO - 127.0.0.1 - - [07/Mar/2026 21:33:21] "GET / HTTP/1.1" 200 -
+2026-03-07 21:33:21,334 - INFO - 127.0.0.1 - - [07/Mar/2026 21:33:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-07 21:33:21,429 - INFO - 127.0.0.1 - - [07/Mar/2026 21:33:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-07 21:33:23,526 - INFO - 127.0.0.1 - - [07/Mar/2026 21:33:23] "GET /login HTTP/1.1" 200 -
+2026-03-07 21:33:23,547 - INFO - 127.0.0.1 - - [07/Mar/2026 21:33:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 21:33:30,845 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\boto3\\resources\\factory.py', reloading
+2026-03-07 21:33:30,875 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\boto3\\resources\\action.py', reloading
+2026-03-07 21:33:30,908 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\client.py', reloading
+2026-03-07 21:33:30,935 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\context.py', reloading
+2026-03-07 21:33:30,972 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\endpoint.py', reloading
+2026-03-07 21:33:31,001 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\hooks.py', reloading
+2026-03-07 21:33:31,033 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\signers.py', reloading
+2026-03-07 21:33:31,067 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\auth.py', reloading
+2026-03-07 21:33:31,089 - INFO - 127.0.0.1 - - [07/Mar/2026 21:33:31] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-03-07 21:33:31,148 - INFO - 127.0.0.1 - - [07/Mar/2026 21:33:31] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-07 21:33:31,192 - INFO - 127.0.0.1 - - [07/Mar/2026 21:33:31] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-07 21:33:31,276 - INFO - 127.0.0.1 - - [07/Mar/2026 21:33:31] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=daoS4CrLWtRSToooe5JD HTTP/1.1" 200 -
+2026-03-07 21:33:31,293 - INFO - 127.0.0.1 - - [07/Mar/2026 21:33:31] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-07 21:33:31,745 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 21:33:36,794 - WARNING -  * Debugger is active!
+2026-03-07 21:33:36,798 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 21:55:32,729 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\asn1.py', reloading
+2026-03-07 21:55:32,729 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\cli.py', reloading
+2026-03-07 21:55:32,730 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\common.py', reloading
+2026-03-07 21:55:32,730 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\core.py', reloading
+2026-03-07 21:55:32,730 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\key.py', reloading
+2026-03-07 21:55:32,730 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\parallel.py', reloading
+2026-03-07 21:55:32,730 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\pem.py', reloading
+2026-03-07 21:55:32,731 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\pkcs1.py', reloading
+2026-03-07 21:55:32,731 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\pkcs1_v2.py', reloading
+2026-03-07 21:55:32,731 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\prime.py', reloading
+2026-03-07 21:55:32,731 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\randnum.py', reloading
+2026-03-07 21:55:32,731 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\transform.py', reloading
+2026-03-07 21:55:32,731 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\util.py', reloading
+2026-03-07 21:55:32,732 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\__init__.py', reloading
+2026-03-07 21:55:32,736 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\__init__.py', reloading
+2026-03-07 21:55:32,736 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\__init__.py', reloading
+2026-03-07 21:55:32,737 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\_compat.py', reloading
+2026-03-07 21:55:32,737 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\_compat.py', reloading
+2026-03-07 21:55:32,737 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\asn1.py', reloading
+2026-03-07 21:55:32,738 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\asn1.py', reloading
+2026-03-07 21:55:32,738 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\cli.py', reloading
+2026-03-07 21:55:32,738 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\cli.py', reloading
+2026-03-07 21:55:32,739 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\common.py', reloading
+2026-03-07 21:55:32,739 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\common.py', reloading
+2026-03-07 21:55:32,739 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\core.py', reloading
+2026-03-07 21:55:32,739 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\core.py', reloading
+2026-03-07 21:55:32,740 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\key.py', reloading
+2026-03-07 21:55:32,740 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\key.py', reloading
+2026-03-07 21:55:32,740 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\parallel.py', reloading
+2026-03-07 21:55:32,741 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\parallel.py', reloading
+2026-03-07 21:55:32,741 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\pem.py', reloading
+2026-03-07 21:55:32,742 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\pem.py', reloading
+2026-03-07 21:55:32,742 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\pkcs1.py', reloading
+2026-03-07 21:55:32,742 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\pkcs1.py', reloading
+2026-03-07 21:55:32,743 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\pkcs1_v2.py', reloading
+2026-03-07 21:55:32,743 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\pkcs1_v2.py', reloading
+2026-03-07 21:55:32,743 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\prime.py', reloading
+2026-03-07 21:55:32,743 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\prime.py', reloading
+2026-03-07 21:55:32,744 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\randnum.py', reloading
+2026-03-07 21:55:32,744 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\randnum.py', reloading
+2026-03-07 21:55:32,744 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\transform.py', reloading
+2026-03-07 21:55:32,744 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\transform.py', reloading
+2026-03-07 21:55:32,744 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\util.py', reloading
+2026-03-07 21:55:32,745 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\rsa\\util.py', reloading
+2026-03-07 21:55:33,198 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 21:55:38,047 - WARNING -  * Debugger is active!
+2026-03-07 21:55:38,051 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 21:55:39,423 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\args.py', reloading
+2026-03-07 21:55:39,423 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\auth.py', reloading
+2026-03-07 21:55:39,423 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\awsrequest.py', reloading
+2026-03-07 21:55:39,423 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\client.py', reloading
+2026-03-07 21:55:39,423 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\compat.py', reloading
+2026-03-07 21:55:39,424 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\compress.py', reloading
+2026-03-07 21:55:39,424 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\config.py', reloading
+2026-03-07 21:55:39,424 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\configloader.py', reloading
+2026-03-07 21:55:39,424 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\configprovider.py', reloading
+2026-03-07 21:55:39,424 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\context.py', reloading
+2026-03-07 21:55:39,424 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\credentials.py', reloading
+2026-03-07 21:55:39,424 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\discovery.py', reloading
+2026-03-07 21:55:39,424 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\endpoint.py', reloading
+2026-03-07 21:55:39,424 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\endpoint_provider.py', reloading
+2026-03-07 21:55:39,425 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\errorfactory.py', reloading
+2026-03-07 21:55:39,425 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\eventstream.py', reloading
+2026-03-07 21:55:39,425 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\exceptions.py', reloading
+2026-03-07 21:55:39,425 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\handlers.py', reloading
+2026-03-07 21:55:39,425 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\history.py', reloading
+2026-03-07 21:55:39,425 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\hooks.py', reloading
+2026-03-07 21:55:39,425 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\httpchecksum.py', reloading
+2026-03-07 21:55:39,425 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\httpsession.py', reloading
+2026-03-07 21:55:39,425 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\loaders.py', reloading
+2026-03-07 21:55:39,425 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\model.py', reloading
+2026-03-07 21:55:39,426 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\monitoring.py', reloading
+2026-03-07 21:55:39,426 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\paginate.py', reloading
+2026-03-07 21:55:39,426 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\parsers.py', reloading
+2026-03-07 21:55:39,426 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\plugin.py', reloading
+2026-03-07 21:55:39,426 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\regions.py', reloading
+2026-03-07 21:55:39,426 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\response.py', reloading
+2026-03-07 21:55:39,426 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\retryhandler.py', reloading
+2026-03-07 21:55:39,426 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\serialize.py', reloading
+2026-03-07 21:55:39,426 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\session.py', reloading
+2026-03-07 21:55:39,427 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\signers.py', reloading
+2026-03-07 21:55:39,427 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\stub.py', reloading
+2026-03-07 21:55:39,427 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\tokens.py', reloading
+2026-03-07 21:55:39,427 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\translate.py', reloading
+2026-03-07 21:55:39,427 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\useragent.py', reloading
+2026-03-07 21:55:39,427 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\utils.py', reloading
+2026-03-07 21:55:39,427 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\validate.py', reloading
+2026-03-07 21:55:39,427 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\waiter.py', reloading
+2026-03-07 21:55:39,427 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\__init__.py', reloading
+2026-03-07 21:55:39,427 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\crt\\auth.py', reloading
+2026-03-07 21:55:39,428 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\crt\\__init__.py', reloading
+2026-03-07 21:55:39,650 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\client.py', reloading
+2026-03-07 21:55:39,650 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\docstring.py', reloading
+2026-03-07 21:55:39,650 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\example.py', reloading
+2026-03-07 21:55:39,650 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\method.py', reloading
+2026-03-07 21:55:39,650 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\paginator.py', reloading
+2026-03-07 21:55:39,650 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\params.py', reloading
+2026-03-07 21:55:39,650 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\service.py', reloading
+2026-03-07 21:55:39,651 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\shape.py', reloading
+2026-03-07 21:55:39,651 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\sharedexample.py', reloading
+2026-03-07 21:55:39,651 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\translator.py', reloading
+2026-03-07 21:55:39,651 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\utils.py', reloading
+2026-03-07 21:55:39,651 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\waiter.py', reloading
+2026-03-07 21:55:39,651 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\__init__.py', reloading
+2026-03-07 21:55:39,651 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\bcdoc\\docstringparser.py', reloading
+2026-03-07 21:55:39,652 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\bcdoc\\restdoc.py', reloading
+2026-03-07 21:55:39,652 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\bcdoc\\style.py', reloading
+2026-03-07 21:55:39,652 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\docs\\bcdoc\\__init__.py', reloading
+2026-03-07 21:55:39,654 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\retries\\adaptive.py', reloading
+2026-03-07 21:55:39,654 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\retries\\base.py', reloading
+2026-03-07 21:55:39,654 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\retries\\bucket.py', reloading
+2026-03-07 21:55:39,654 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\retries\\quota.py', reloading
+2026-03-07 21:55:39,654 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\retries\\special.py', reloading
+2026-03-07 21:55:39,654 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\retries\\standard.py', reloading
+2026-03-07 21:55:39,654 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\retries\\throttling.py', reloading
+2026-03-07 21:55:39,654 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\retries\\__init__.py', reloading
+2026-03-07 21:55:39,656 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\vendored\\six.py', reloading
+2026-03-07 21:55:39,656 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\vendored\\__init__.py', reloading
+2026-03-07 21:55:39,656 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\vendored\\requests\\exceptions.py', reloading
+2026-03-07 21:55:39,657 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\vendored\\requests\\__init__.py', reloading
+2026-03-07 21:55:39,657 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\vendored\\requests\\packages\\__init__.py', reloading
+2026-03-07 21:55:39,657 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\vendored\\requests\\packages\\urllib3\\exceptions.py', reloading
+2026-03-07 21:55:39,657 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\vendored\\requests\\packages\\urllib3\\__init__.py', reloading
+2026-03-07 21:55:40,201 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 21:57:29,127 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 21:57:29,410 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.37.139.33:5000
+2026-03-07 21:57:29,410 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 21:57:29,422 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 21:57:29,947 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 21:57:30,065 - WARNING -  * Debugger is active!
+2026-03-07 21:57:30,068 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 21:57:35,726 - INFO - 127.0.0.1 - - [07/Mar/2026 21:57:35] "GET / HTTP/1.1" 200 -
+2026-03-07 21:57:35,854 - INFO - 127.0.0.1 - - [07/Mar/2026 21:57:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 21:57:37,625 - INFO - 127.0.0.1 - - [07/Mar/2026 21:57:37] "GET /login HTTP/1.1" 200 -
+2026-03-07 21:57:37,653 - INFO - 127.0.0.1 - - [07/Mar/2026 21:57:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 21:57:46,744 - INFO - 127.0.0.1 - - [07/Mar/2026 21:57:46] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-03-07 21:57:46,770 - INFO - 127.0.0.1 - - [07/Mar/2026 21:57:46] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-07 21:57:46,782 - INFO - 127.0.0.1 - - [07/Mar/2026 21:57:46] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-07 21:57:46,833 - INFO - 127.0.0.1 - - [07/Mar/2026 21:57:46] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=bl6HuRUA5WZQOtqPafT9 HTTP/1.1" 200 -
+2026-03-07 21:57:46,842 - INFO - 127.0.0.1 - - [07/Mar/2026 21:57:46] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-07 22:38:42,924 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:38:43,356 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:38:43,517 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:38:43,657 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.37.139.33:5000
+2026-03-07 22:38:43,658 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 22:38:43,670 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:38:43,889 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:38:44,000 - WARNING -  * Debugger is active!
+2026-03-07 22:38:44,002 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:38:44,255 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:38:44,398 - WARNING -  * Debugger is active!
+2026-03-07 22:38:44,403 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:39:19,840 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:19] "GET / HTTP/1.1" 200 -
+2026-03-07 22:39:19,956 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:39:21,641 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:21] "GET /login HTTP/1.1" 200 -
+2026-03-07 22:39:21,671 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:39:24,748 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:24] "GET /register HTTP/1.1" 200 -
+2026-03-07 22:39:24,773 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:39:50,176 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\app.py', reloading
+2026-03-07 22:39:50,178 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\app.py', reloading
+y', reloading
+2026-03-07 22:39:50,179 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\boto3\\resources\\action.py', reloading
+2026-03-07 22:39:50,181 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\boto3\\resources\\factory.py', reloading
+2026-03-07 22:39:50,184 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\boto3\\resources\\action.py', reloading
+2026-03-07 22:39:50,196 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:50] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-03-07 22:39:50,227 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:50] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-07 22:39:50,234 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:50] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-07 22:39:50,252 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:50] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=6TJGJxvCxZdU5FlPrzD9 HTTP/1.1" 200 -
+2026-03-07 22:39:50,285 - INFO - 127.0.0.1 - - [07/Mar/2026 22:39:50] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-07 22:39:50,749 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:39:51,351 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:39:51,455 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:39:51,569 - WARNING -  * Debugger is active!
+2026-03-07 22:39:51,572 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:39:51,941 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:39:52,086 - WARNING -  * Debugger is active!
+2026-03-07 22:39:52,089 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:40:52,001 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\typing.py', reloading
+2026-03-07 22:40:52,365 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:40:52,811 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:40:52,970 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:40:53,088 - WARNING -  * Debugger is active!
+2026-03-07 22:40:53,091 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:40:53,427 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:40:53,615 - WARNING -  * Debugger is active!
+2026-03-07 22:40:53,618 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:41:19,382 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+2026-03-07 22:41:19,382 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\__init__.py', reloading
+2026-03-07 22:41:19,386 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\templating.py', reloading
+2026-03-07 22:41:19,386 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\templating.py', reloading
+2026-03-07 22:41:19,387 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\globals.py', reloading
+2026-03-07 22:41:19,388 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\globals.py', reloading
+2026-03-07 22:41:19,389 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2026-03-07 22:41:19,392 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\__init__.py', reloading
+2026-03-07 22:41:19,394 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2026-03-07 22:41:19,397 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2026-03-07 22:41:19,397 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2026-03-07 22:41:19,842 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:41:20,281 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:41:20,471 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:41:20,583 - WARNING -  * Debugger is active!
+2026-03-07 22:41:20,586 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:41:20,826 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:41:20,950 - WARNING -  * Debugger is active!
+2026-03-07 22:41:20,952 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:41:29,441 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:41:29,446 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:41:29,447 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:41:29,770 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:41:30,151 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:41:30,433 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:41:30,588 - WARNING -  * Debugger is active!
+2026-03-07 22:41:30,592 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:41:30,810 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:41:30,945 - WARNING -  * Debugger is active!
+2026-03-07 22:41:30,948 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:41:31,370 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:41:31,371 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:41:31,371 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:41:31,757 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:41:32,115 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:41:32,448 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:41:32,628 - WARNING -  * Debugger is active!
+2026-03-07 22:41:32,631 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:41:32,792 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:41:32,968 - WARNING -  * Debugger is active!
+2026-03-07 22:41:32,975 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:41:44,274 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:41:44,492 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.37.139.33:5000
+2026-03-07 22:41:44,492 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 22:41:44,513 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:41:45,081 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:41:45,224 - WARNING -  * Debugger is active!
+2026-03-07 22:41:45,227 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:41:51,360 - INFO - 127.0.0.1 - - [07/Mar/2026 22:41:51] "GET / HTTP/1.1" 200 -
+2026-03-07 22:41:51,489 - INFO - 127.0.0.1 - - [07/Mar/2026 22:41:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:41:53,282 - INFO - 127.0.0.1 - - [07/Mar/2026 22:41:53] "GET /register HTTP/1.1" 200 -
+2026-03-07 22:41:53,305 - INFO - 127.0.0.1 - - [07/Mar/2026 22:41:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:42:17,099 - INFO - New user registered
+2026-03-07 22:42:17,100 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:17] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-03-07 22:42:17,109 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:17] "GET /login HTTP/1.1" 200 -
+2026-03-07 22:42:17,141 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:42:27,109 - INFO - manojb891817@gmail.com logged in
+2026-03-07 22:42:27,111 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-03-07 22:42:27,124 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:27] "GET /patient_dashboard HTTP/1.1" 200 -
+2026-03-07 22:42:27,158 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:42:35,046 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:35] "GET /book_appointment HTTP/1.1" 200 -
+2026-03-07 22:42:35,077 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:42:43,489 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:43] "[33mGET /view_appointments HTTP/1.1[0m" 404 -
+2026-03-07 22:42:48,066 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:48] "GET /book_appointment HTTP/1.1" 200 -
+2026-03-07 22:42:48,088 - INFO - 127.0.0.1 - - [07/Mar/2026 22:42:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:43:27,789 - INFO - 127.0.0.1 - - [07/Mar/2026 22:43:27] "[35m[1mPOST /book_appointment HTTP/1.1[0m" 500 -
+2026-03-07 22:43:27,838 - INFO - 127.0.0.1 - - [07/Mar/2026 22:43:27] "GET /book_appointment?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-03-07 22:43:27,859 - INFO - 127.0.0.1 - - [07/Mar/2026 22:43:27] "GET /book_appointment?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-03-07 22:43:27,901 - INFO - 127.0.0.1 - - [07/Mar/2026 22:43:27] "GET /book_appointment?__debugger__=yes&cmd=resource&f=console.png&s=cFt6uZy4fkGejzMfkHFH HTTP/1.1" 200 -
+2026-03-07 22:43:27,913 - INFO - 127.0.0.1 - - [07/Mar/2026 22:43:27] "GET /book_appointment?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-03-07 22:45:34,007 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\boto3\\__init__.py', reloading
+2026-03-07 22:45:34,007 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\boto3\\__init__.py', reloading
+2026-03-07 22:45:34,007 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\boto3\\__init__.py', reloading
+2026-03-07 22:45:34,161 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\boto3\\session.py', reloading
+2026-03-07 22:45:34,161 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\boto3\\session.py', reloading
+2026-03-07 22:45:34,240 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:45:34,571 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:45:34,779 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:45:35,562 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:45:35,562 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:45:35,890 - WARNING -  * Debugger is active!
+2026-03-07 22:45:35,892 - WARNING -  * Debugger is active!
+2026-03-07 22:45:35,893 - WARNING -  * Debugger is active!
+2026-03-07 22:45:35,894 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:45:35,896 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:45:35,897 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:45:39,740 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:45:39,742 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:45:39,742 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:45:40,107 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:45:40,108 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:45:40,988 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:45:40,990 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:45:41,005 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:45:41,168 - WARNING -  * Debugger is active!
+2026-03-07 22:45:41,170 - WARNING -  * Debugger is active!
+2026-03-07 22:45:41,170 - WARNING -  * Debugger is active!
+2026-03-07 22:45:41,172 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:45:41,173 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:45:41,174 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:45:41,433 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:45:41,433 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:45:41,434 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:45:41,434 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:45:42,397 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:45:42,398 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:45:42,404 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:45:42,978 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:45:42,979 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:45:42,982 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:45:43,095 - WARNING -  * Debugger is active!
+2026-03-07 22:45:43,095 - WARNING -  * Debugger is active!
+2026-03-07 22:45:43,098 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:45:43,098 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:47:16,408 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:47:16,407 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:47:16,410 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:47:16,411 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:47:17,443 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:47:17,443 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:47:18,092 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:47:18,095 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:47:18,114 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:47:18,241 - WARNING -  * Debugger is active!
+2026-03-07 22:47:18,243 - WARNING -  * Debugger is active!
+2026-03-07 22:47:18,244 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:47:18,247 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:47:18,264 - WARNING -  * Debugger is active!
+2026-03-07 22:47:18,267 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:47:32,498 - INFO - 127.0.0.1 - - [07/Mar/2026 22:47:32] "[35m[1mPOST /book_appointment HTTP/1.1[0m" 500 -
+2026-03-07 22:47:32,671 - INFO - 127.0.0.1 - - [07/Mar/2026 22:47:32] "[36mGET /book_appointment?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:47:32,674 - INFO - 127.0.0.1 - - [07/Mar/2026 22:47:32] "[36mGET /book_appointment?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-07 22:47:32,689 - INFO - 127.0.0.1 - - [07/Mar/2026 22:47:32] "GET /book_appointment?__debugger__=yes&cmd=resource&f=console.png&s=BSc35HpwSMT1rGGyamOj HTTP/1.1" 200 -
+2026-03-07 22:47:32,700 - INFO - 127.0.0.1 - - [07/Mar/2026 22:47:32] "[36mGET /book_appointment?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-07 22:47:57,653 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:47:57,795 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.37.139.33:5000
+2026-03-07 22:47:57,795 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 22:47:57,812 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:47:58,432 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:47:58,574 - WARNING -  * Debugger is active!
+2026-03-07 22:47:58,577 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:48:10,459 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:10] "GET / HTTP/1.1" 200 -
+2026-03-07 22:48:10,512 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:48:15,966 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:15] "GET /patient_dashboard HTTP/1.1" 200 -
+2026-03-07 22:48:15,981 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:48:19,394 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:19] "GET /book_appointment HTTP/1.1" 200 -
+2026-03-07 22:48:19,422 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:48:27,074 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:27] "GET /book_appointment HTTP/1.1" 200 -
+2026-03-07 22:48:27,094 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:48:46,397 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:46] "[35m[1mPOST /book_appointment HTTP/1.1[0m" 500 -
+2026-03-07 22:48:46,426 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:46] "[36mGET /book_appointment?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-07 22:48:46,432 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:46] "[36mGET /book_appointment?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-07 22:48:46,448 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:46] "[36mGET /book_appointment?__debugger__=yes&cmd=resource&f=console.png&s=BSc35HpwSMT1rGGyamOj HTTP/1.1[0m" 304 -
+2026-03-07 22:48:46,481 - INFO - 127.0.0.1 - - [07/Mar/2026 22:48:46] "[36mGET /book_appointment?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-07 22:55:48,719 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\__init__.py', reloading
+2026-03-07 22:55:48,721 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\session.py', reloading
+2026-03-07 22:55:48,721 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\session.py', reloading
+2026-03-07 22:55:48,724 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\session.py', reloading
+2026-03-07 22:55:48,724 - INFO -  * Detected change in 'C:\\Users\\manoj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\botocore\\session.py', reloading
+2026-03-07 22:55:49,277 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:55:49,285 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:55:49,285 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:55:49,501 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:55:49,940 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:55:49,941 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:55:49,942 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:55:50,074 - WARNING -  * Debugger is active!
+2026-03-07 22:55:50,075 - WARNING -  * Debugger is active!
+2026-03-07 22:55:50,075 - WARNING -  * Debugger is active!
+2026-03-07 22:55:50,077 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:55:50,078 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:55:50,079 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:55:50,098 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:55:50,206 - WARNING -  * Debugger is active!
+2026-03-07 22:55:50,208 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:56:08,432 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:56:08,434 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:56:08,434 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:56:08,435 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:56:09,185 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:56:09,186 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:56:09,187 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:56:09,290 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:56:09,303 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:56:09,307 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:56:09,403 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:56:09,904 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:56:10,023 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:56:10,075 - WARNING -  * Debugger is active!
+2026-03-07 22:56:10,076 - WARNING -  * Debugger is active!
+2026-03-07 22:56:10,078 - WARNING -  * Debugger is active!
+2026-03-07 22:56:10,079 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:56:10,079 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:56:10,081 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:56:10,166 - WARNING -  * Debugger is active!
+2026-03-07 22:56:10,170 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:56:11,389 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:56:11,390 - INFO -  * Detected change in 'C:\\Users\\manoj\\OneDrive\\Desktop\\medtrack-project-main-20260307T154327Z-1-001\\medtrack-project-main\\app.py', reloading
+2026-03-07 22:56:12,301 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:56:12,304 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:56:12,372 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:56:12,889 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:56:12,929 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:56:13,009 - WARNING -  * Debugger is active!
+2026-03-07 22:56:13,013 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:56:13,049 - WARNING -  * Debugger is active!
+2026-03-07 22:56:13,052 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:56:16,358 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:56:16,538 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.37.139.33:5000
+2026-03-07 22:56:16,538 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 22:56:16,548 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-07 22:56:17,196 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-07 22:56:17,328 - WARNING -  * Debugger is active!
+2026-03-07 22:56:17,331 - INFO -  * Debugger PIN: 538-812-121
+2026-03-07 22:56:29,523 - INFO - Appointment booked
+2026-03-07 22:56:29,524 - INFO - 127.0.0.1 - - [07/Mar/2026 22:56:29] "[32mPOST /book_appointment HTTP/1.1[0m" 302 -
+2026-03-07 22:56:29,935 - INFO - 127.0.0.1 - - [07/Mar/2026 22:56:29] "GET /view_appointment_patient HTTP/1.1" 200 -
+2026-03-07 22:56:30,085 - INFO - 127.0.0.1 - - [07/Mar/2026 22:56:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
