@@ -18,7 +18,7 @@ logging.basicConfig(
 # ----------------------------
 # AWS Configuration
 # ----------------------------
-REGION = "us-east-1"  # Change if needed
+REGION = "us-east-1"
 SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:051826708593:Medtrack"
 
 dynamodb = boto3.resource('dynamodb', region_name=REGION)
@@ -71,8 +71,11 @@ def login():
 
             users_table.update_item(
                 Key={"email": email},
-                UpdateExpression="SET login_count = login_count + :val",
-                ExpressionAttributeValues={":val": 1}
+                UpdateExpression="SET login_count = if_not_exists(login_count, :start) + :val",
+                ExpressionAttributeValues={
+                    ":val": 1,
+                    ":start": 0
+                }
             )
 
             logging.info(f"{email} logged in")
